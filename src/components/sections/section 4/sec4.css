@@ -1,0 +1,46 @@
+
+/* styles.css */
+.sec4{
+    background-color: #eeeeee; 
+    height: 70vh;
+}
+.main4{
+    display: flex;
+    justify-content: center;
+    padding-top:80px ;
+   
+    
+}
+.card {
+    margin-left: 20px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 30px !important;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100px;
+    height: auto;
+}
+
+.card-content {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 14px;
+}

@@ -1,0 +1,32 @@
+.description{
+    padding-top: 140px;
+}
+.sec1{
+    font-weight: bold;
+    float: left;
+    width: 700px;
+    /* border: solid; */
+    /* background-color: bisque; */
+}
+.name{
+    color: #8873ef;
+    border: #8873ef solid;
+    width: 400px;
+    border-radius: 6px;
+    padding-left: 5px;
+}
+.but_sec1{
+    margin-top: 20px;
+    background-color:#8873ef !important;
+    font-size: 22px !important;
+    transition: .8s;
+}
+.but_sec1:hover{
+    background-color: blueviolet !important;
+}
+.left_sec img{
+    width: 594px;
+    height: 400px;
+    margin-top: -53px;
+ 
+}

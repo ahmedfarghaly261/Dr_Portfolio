@@ -1,0 +1,20 @@
+.nav_bar{
+    font-size: 20px !important;
+    background-color: #eeeeee;
+}
+#nav_link{
+    transition: .6s;
+
+}
+#nav_link:hover{
+    color: blueviolet;
+}
+#nav_link_butt{
+    transition: .6s;
+    color: blueviolet;
+
+}
+#nav_link_butt:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}

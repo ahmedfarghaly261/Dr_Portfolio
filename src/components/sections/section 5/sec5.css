@@ -1,0 +1,11 @@
+.poster {
+    float: left;
+    width: 500px;
+   
+}
+.form{
+    float: right;
+    /* border: solid .5px; */
+    width: 560px;
+    font-size: 20px;
+}

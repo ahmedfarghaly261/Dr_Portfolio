@@ -9,13 +9,17 @@ import "./dashboard.css"
 import AOS from 'aos'
 import "aos/dist/aos.css"
 import Footer from "../components/footer/footer"
+import NavBar from "../components/nav_bar/nav"
 function Dashboard() {
     useEffect(() => {
      AOS.init({ duration: 2000 })
     }, []);
     return (
         <>
-            <div className="head" >
+        <div className="nav" data-aos="fade-down"> 
+            <NavBar/>
+        </div>
+            <div className="head" data-aos="fade-down">
                 <Header />
             </div>
             <div className="sec-1" data-aos="fade-down">

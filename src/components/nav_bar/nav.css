@@ -1,0 +1,11 @@
+.navigation{
+    background-color: #8873ef;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav_link{
+      color: aliceblue !important; 
+      font-size: 20px !important;
+}

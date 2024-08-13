@@ -1,8 +1,8 @@
 
-/* styles.css */
 .sec4{
     background-color: #eeeeee; 
     height: 70vh;
+    /* display: grid; */
 }
 .main4{
     display: flex;
@@ -11,36 +11,41 @@
    
     
 }
-.card {
-    margin-left: 20px;
-    width: 400px;
-    border: 1px solid #ccc;
-    border-radius: 30px !important;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-  
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-.card img {
-    width: 100px;
-    height: auto;
-}
-
-.card-content {
-    padding: 10px;
-    background-color: #f9f9f9;
-}
-
-.card h3 {
-    margin: 0;
-    font-size: 18px;
-}
-
-.card p {
-    margin: 10px 0;
-    font-size: 14px;
-}
+.commit_part {
+    float: right;
+    display: flex;
+    margin-top: -150px;
+    margin-right: 30px;
+    width: 200px;
+    font-size: 19px;
+    }
+    
+    .sections {
+        background-color: #fcfbfb;
+        width: 450px;
+        /* border: solid; */
+        height: 250px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        margin: 30px;
+        border-radius: 50px;
+    }
+    
+    .commit_img img {
+        background-color: #fcfbfb !important;
+        width: 80px;
+        margin: 15px;
+        /* border: solid; */
+    }
+    
+    .titel {
+        margin-left: 10px;
+    
+    
+    }
+    .rate{
+        margin-left: 40px;
+        font-size: 20px;
+    
+    }
+    
+    

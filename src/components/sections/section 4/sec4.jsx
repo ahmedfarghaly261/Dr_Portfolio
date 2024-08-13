@@ -1,49 +1,74 @@
 import "./sec4.css"
 import profile from "./img/profile.png"
 import { RiStarSFill } from "react-icons/ri";
+import icon_img from "./img/icon_img.jpg"
 function Sec4() {
     return (
         <>
-            <section className="sec4">
-                <div className=""> 
-                    <center><h2>What our great cusomers say <br />
-                    about  <span style={{color:"#8873ef"}}>Dr Ahmed</span> </h2> </center> 
-                </div>
-                <div className="container">
-                    <div className="main4">
-                        <div class="card">
-                            <img src={profile}  alt="Card Image" />
-                            <div class="card-content">
-                                <span><h3>Lance Altman</h3> </span> <span> 4 stars</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure earum exercitationem adipisci quos nesciunt laboriosam culpa tempora unde atque facilis delectus doloribus quam, blanditiis dicta fugiat corrupti dolores perferendis dignissimos?.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src={profile} alt="Card Image" />
-                            <div class="card-content">
-                                <h3>Marc Watson</h3>  <span style={{fontSize:"20px"}} > 4 <RiStarSFill style={{color:"#8873ef"}} /></span>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis corporis similique culpa commodi ipsa quae, totam provident, blanditiis at magni temporibus soluta, necessitatibus natus. Maxime fugit dolorem in praesentium laudantium..</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src={profile} alt="Card Image" />
-                            <div class="card-content">
-                                <h3>Jack Denel </h3>  <span style={{fontSize:"20px"}} > 4 <RiStarSFill style={{color:"#8873ef"}} /></span>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis corporis similique culpa commodi ipsa quae, totam provident, blanditiis at magni temporibus soluta, necessitatibus natus. Maxime fugit dolorem in praesentium laudantium..</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src={profile} alt="Card Image" />
-                            <div class="card-content">
-                                <h3>Sally Welch </h3> <span style={{fontSize:"20px"}} > 4 <RiStarSFill style={{color:"#8873ef"}} /></span>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis corporis similique culpa commodi ipsa quae, totam provident, blanditiis at magni temporibus soluta, necessitatibus natus. Maxime fugit dolorem in praesentium laudantium..</p>
-                            </div>
-                        </div>
 
-                    </div>
+            <div className="sec4">
+                <div className="">
+                    <center><h2> <b>What our great customers say  </b>
+                        <br />
+                        <b>about </b>
+                        <span style={{ color: "#8873ef" }}> <b>Dr Ahmed </b>  </span> </h2>
+                    </center>
+                </div>
+                <div className="main4">
+                    <section className="sections ">
+                        <div class="left_part">
+                            <span class="commit_img">
+                                <img src={icon_img}
+                                    alt="" />
+                            </span>
+                            <div class="titel">
+                                <h5> <b>Lance Altma </b> </h5>
+                            </div>
+                            <div style={{ color: "#2cbc63" }} class="rate"> <b><RiStarSFill style={{ color: "#45f882" }} /> 4.8 </b> </div>
+                        </div>
+                        <span class="commit_part">
+                            <div class="commit"> Loremadasddasdasd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque hic voluptatum modi obcaecati eaque dicta dolores!  qui! </div>
+                        </span>
+                    </section>
+
+                    <section className="sections ">
+                        <div class="left_part">
+                            <span class="commit_img">
+                                <img src={icon_img}
+                                    alt="" />
+                            </span>
+                            <div class="titel">
+                                <h5> <b>Marc Watson </b> </h5>
+                            </div>
+                            <div style={{ color: "#2cbc63" }} class="rate"> <b><RiStarSFill style={{ color: "#45f882" }} /> 4.8 </b> </div>
+                        </div>
+                        <span class="commit_part">
+                            <div class="commit"> Loremadasddasdasd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque hic voluptatum modi obcaecati eaque dicta dolores!  qui! </div>
+                        </span>
+                    </section>
+
+                    <section className="sections ">
+                        <div class="left_part">
+                            <span class="commit_img">
+                                <img src={icon_img}
+                                    alt="" />
+                            </span>
+                            <div class="titel">
+                                <h5> <b>Jack Denel </b> </h5>
+                            </div>
+                            <div style={{ color: "#2cbc63" }} class="rate"> <b><RiStarSFill style={{ color: "#45f882" }} /> 4.8 </b> </div>
+                        </div>
+                        <span class="commit_part">
+                            <div class="commit"> Loremadasddasdasd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque hic voluptatum modi obcaecati eaque dicta dolores!  qui! </div>
+                        </span>
+                    </section>
+                    <br />
+
                 </div>
 
-            </section>
+            </div>
+
+
         </>
     )
 }

@@ -17,9 +17,9 @@ function Footer() {
                             surgery</Card.Title>
                         <Card.Text>
                             <div className="social">     
-                                <a href=""><FaFacebook /></a>
-                                <a href=""><FaLinkedin /></a>
-                                <a href=""> <FaGithubSquare /></a></div>
+                                <a href="https://www.facebook.com/profile.php?id=100006096107649"><FaFacebook /></a>
+                                <a href=" https://www.linkedin.com/in/ahmed-farghaly-b65b09236/ "><FaLinkedin /></a>
+                                <a href=" https://github.com/ahmedfarghaly261"> <FaGithubSquare /></a></div>
 
                         </Card.Text>
 

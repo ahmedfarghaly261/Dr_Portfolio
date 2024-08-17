@@ -1,20 +1,38 @@
 .nav_bar{
     font-size: 20px !important;
-    background-color: #eeeeee;
+    background-color: #d4d4d4;
 }
+   
+ 
+
 #nav_link{
-    transition: .6s;
+    transition: .2s;
+    
+    text-decoration: none;
+    padding: 10px 20px;
 
 }
 #nav_link:hover{
-    color: blueviolet;
+    background-color: blueviolet;
+    color: aliceblue;
+    /* border: #d4d4d4; */
+    border-radius: 15px;
 }
 #nav_link_butt{
     transition: .6s;
     color: blueviolet;
+    height: 100%;
+    border: solid;
+    border-radius: 15px;
+    margin-right: -5px;
 
 }
 #nav_link_butt:hover{
+    
     background-color: blueviolet;
     color: aliceblue;
+   
+}
+.active{
+    background-color: blueviolet;
 }

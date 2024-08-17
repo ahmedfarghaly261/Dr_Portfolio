@@ -10,6 +10,7 @@ import AOS from 'aos'
 import "aos/dist/aos.css"
 import Footer from "../components/footer/footer"
 import NavBar from "../components/nav_bar/nav"
+import Headroom from 'react-headroom'
 function Dashboard() {
     useEffect(() => {
      AOS.init({ duration: 2000 })
@@ -19,9 +20,12 @@ function Dashboard() {
         <div className="nav" data-aos="fade-down"> 
             <NavBar/>
         </div>
-            <div className="head" data-aos="fade-down">
+        <Headroom>
+              <div className="head" data-aos="fade-down">
                 <Header />
             </div>
+        </Headroom>
+          
             <div className="sec-1" data-aos="fade-down">
                 <Sec1 />
             </div>

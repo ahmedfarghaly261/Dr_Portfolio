@@ -13,7 +13,7 @@ function Sec1() {
                     <span className="right_sec" >
                         <h1> <b>welcome to </b> </h1>
                         <br />
-                        <h1 className="name"> <b>   Dr Ahmed </b></h1>
+                        <h1 className="name"> <b> Dr Ahmed Mohamed </b></h1>
                         <h2> <b> Specialist in general and laparoscopic <br /> surgery </b></h2>
                         <h5> Lorem ipsum, dolor sit amet consectetur adipisicing elit.  <br />Explicabo debitis dolor dolore voluptatem reprehenderit aut?</h5>
                       

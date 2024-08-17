@@ -28,7 +28,7 @@ function Form() {
                     </div>
 
                     <form className="main_form" action="/">
-                        <h1> book an appointment  <CiFaceSmile /></h1>
+                        <h1 className="book" > book an appointment  <CiFaceSmile /></h1>
 
                         <div className="">
                             <input className="info" type="text" name="name" placeholder=" Full name" />

@@ -32,7 +32,7 @@ function Dashboard() {
             <div className="sec-2" data-aos="fade-up">
                 <Sec2 />
             </div>
-            <div className="sec-3" data-aos="zoom-out-down">
+            <div className="sec-3" data-aos="fade-up">
                 <Sec3 />
             </div>
             <div className="sec-4" data-aos="zoom-out-left">

@@ -109,10 +109,6 @@ function Card_for_sec3() {
                         </a>
                     </div>
 
-
-
-
-
                 </div>
             </div>
         </div>

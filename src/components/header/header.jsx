@@ -11,7 +11,7 @@ function Header() {
   return (
     <>
       <div className="nav_bar">
-        <Navbar className="sticky" bg="light" data-bs-theme="light">
+        <Navbar className="sticky" bg="" data-bs-theme="light">
           <Container>
             <Navbar.Brand href="#home"><b> <FaUserDoctor style={{ color: "#8873ef", fontSize: "40px" }} /></b>  Navbar </Navbar.Brand>
             <Nav className="-auto" id="">

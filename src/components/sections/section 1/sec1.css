@@ -14,7 +14,7 @@
     border-right: #8873ef solid ;
     overflow: hidden;
     white-space: nowrap;
-    width: 400px;
+    width: 480px;
     border-radius: 6px;
     padding-left: 5px;
     animation: typing 3.5s steps(40, end),
@@ -22,12 +22,12 @@
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    10% { border-color: #8873ef; }
+    50% { border-color: #8873ef; }
   }
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 64% }
+    to { width: 100% }
   }
   
 .but_sec1{

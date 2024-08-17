@@ -14,6 +14,7 @@
 .commit_part {
     float: right;
     display: flex;
+    flex-wrap: wrap;
     margin-top: -150px;
     margin-right: 30px;
     width: 200px;
